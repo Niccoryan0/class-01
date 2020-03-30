@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>Lab 01b</title>
+    <style>
+      body {
+        background-color: rgb(155, 80, 80);
+      }
+      header {
+        color: blue;
+        font-family: fantasy;
+        background-color: red;
+        text-align: center;
+        padding: 50px;
+        border-style: dashed;
+      }
+    </style>
+  </head>
+  <body>
+
+    <header>
+      <h1>Class 1 Lab</h1>
+    </header>
+
+    <main>
+      <p style="color:rgb(0, 33, 180); background-color:lavender; text-align:center; border-style:inset">Question 1: What is the character's name?</p>
+      <p style="color:rgb(209, 22, 116); background-color:rgb(78, 160, 148); border-style:double">Question 2: What is their title?</p>
+      <p style="color:rgb(107, 5, 36); background-color:rgb(10, 122, 89); text-align:right; border-style:dotted">Question 3: Where are they from?</p>
+      <p style="color:rgb(102, 129, 116); background-color:rgb(252, 206, 0); text-align:center; margin:100px; border-style:groove">Question 4: Where are they going?</p>
+
+    </main>
+    
+    <footer>
+
+    </footer>
+
+    <script>
+      let chosenName= prompt("Roleplay! Make up a characer, what's their name?");
+      console.log("chosenName : " + chosenName);
+
+      let chosenTitle = prompt("And what is " + chosenName + "'s title? i.e. The Great, The Wise, etc.");
+      console.log("chosenTitle : " + chosenTitle);
+
+      let fullName = chosenName + " " + chosenTitle;
+
+      let birthPlace = prompt("And where is " + fullName + " from?");
+      console.log("birthPlace : " + birthPlace);
+
+      let destination = prompt("My my " + fullName + ", " + birthPlace + " is quite far from here, to where do they travel?");
+      console.log("destination : " + destination);
+
+      alert("Well best of luck " + fullName + " of " + birthPlace + " I hope you reach " + destination + " and accomplish your goals swiftly.")
+
+    </script>
+  </body>
+</html>
