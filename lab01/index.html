@@ -40,21 +40,26 @@
     </footer>
 
     <script>
+      // Roleplay game, first ask for a name.
       let chosenName= prompt("Roleplay! Make up a character, what's their name?");
       console.log("chosenName : " + chosenName);
 
+      //Ask for their title
       let chosenTitle = prompt("And what is " + chosenName + "'s title? i.e. The Great, The Wise, etc.");
       console.log("chosenTitle : " + chosenTitle);
 
+      // Make a fullname variable for simplicity
       let fullName = chosenName + " " + chosenTitle;
 
+      // Ask where they're from
       let birthPlace = prompt("And where is " + fullName + " from?");
       console.log("birthPlace : " + birthPlace);
 
+      // Ask for their destination.
       let destination = prompt("My my " + fullName + ", " + birthPlace + " is quite far from here, to where do they travel?");
       console.log("destination : " + destination);
 
-      alert("Well best of luck " + fullName + " of " + birthPlace + " I hope you reach " + destination + " and accomplish your goals swiftly.")
+      alert("Well best of luck " + fullName + " of " + birthPlace + " I hope you reach " + destination + " and accomplish your goals swiftly.");
 
     </script>
   </body>
